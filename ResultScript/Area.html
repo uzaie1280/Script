@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script type="text/javascript">
+
+		
+	</script>
+</head>
+
+<body>
+
+<script type="text/javascript">  
+function calculateArea(){  
+var l=document.form1.Len.value; 
+var w=document.form1.wid.value;
+let a =0;
+a = l*w;
+
+document.form1.res.value = a; 
+
+
+ 
+}  
+</script>  
+  
+<form name="form1">  
+Length:	<input type="text" name="Len"/>  
+Width:	<input type="text" name="wid"/>
+<input type="button" onclick="calculateArea()" value="result"/>  
+<input type="text" name="res">
+
+</form>  
+</body>
+</html>

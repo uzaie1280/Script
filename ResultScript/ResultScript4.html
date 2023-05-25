@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+
+    <body>
+        <P>This class will help you to secure</P>
+        <p id="result2"></p>
+        <P>Marks</P>
+        <script>
+            function fcall()
+            {
+
+            var n = 2;
+            
+        n = document.form1.data1.value; 
+            var r = 1;
+            var a = 0;
+            for(a = 0; a<10; a++)
+            {
+                r = n*a;
+            
+            {document.write(r +"<br>");}
+            }
+        }  
+//document.getElementById("result2").innerHTML =a;
+
+</script>
+<form name = "form1"> 
+    <input type = "text" name = "data1">
+    <input type = "button" onclick = "fcall()">
+    </body>
+</html>
